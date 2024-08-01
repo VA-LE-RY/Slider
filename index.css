@@ -1,0 +1,119 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+span {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.main__contain {
+    margin: 107px 135px 123px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 50px;
+    width: 1200px;
+    height: 555px;
+}
+
+.main__title {
+    padding-top: 70px;
+    padding-bottom: 35px;
+    margin: 0;
+    width: 253px;
+    font-size: 27px;
+    color: #E3B873;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main__title::after {
+    content: '__________';
+    color: #E3B873;
+    padding-left: 40px;
+}
+
+.main__card-name {
+    color: #E3B873;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.main__text {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.main__card-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 34px;
+    font-size: 13px;
+}
+
+.main__card-name {
+    margin: 42px 0 10px 0;
+}
+
+.main__photo-links {
+    display: flex;
+    gap: 60px;
+}
+
+.main__photo-links-item {
+    color: white;
+    opacity: .3;
+    font-family: "Yeseva One", serif;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.main__photo-links-item:hover,
+.main__photo-links-item.active {
+    cursor: pointer;
+    color: #E3B873;
+    opacity: unset;
+    text-decoration: underline;
+}
+
+.main__photo-img {
+    width: 670px;
+    height: 480px;
+    overflow: hidden;
+    border: none;
+}
+
+.main__navigation {
+    margin-top: 80px;
+    display: flex;
+    gap: 17px;
+    cursor: pointer;
+}
+
+.touch:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main__navigation-points {
+    display: flex;
+    gap: 17px;
+}
+
+.main__navigation-points-item {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.main__navigation-points-item.active {
+    background-color: white;
+}
